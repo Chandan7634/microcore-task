@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Required field indicator */
+.required:after {
+    content: " *";
+    color: #ef4444;
+    margin-left: 2px;
+}
